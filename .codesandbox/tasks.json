@@ -11,33 +11,31 @@
   "tasks": {
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "dev": {
       "name": "dev",
       "command": "npm run dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
     },
     "prettier": {
       "name": "prettier",
-      "command": "npm run prettier",
-      "runAtStart": false
+      "command": "npm run prettier"
     },
     "prettier:check": {
       "name": "prettier:check",
-      "command": "npm run prettier:check",
-      "runAtStart": false
+      "command": "npm run prettier:check"
     },
     "start": {
       "name": "start",
-      "command": "npm run start",
-      "runAtStart": false
+      "command": "npm run start"
     },
     "seed": {
       "name": "seed",
-      "command": "npm run seed",
-      "runAtStart": false
+      "command": "npm run seed"
     }
   }
 }
