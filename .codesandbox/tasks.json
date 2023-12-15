@@ -1,0 +1,43 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "npm run prettier",
+      "runAtStart": false
+    },
+    "prettier:check": {
+      "name": "prettier:check",
+      "command": "npm run prettier:check",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": false
+    },
+    "seed": {
+      "name": "seed",
+      "command": "npm run seed",
+      "runAtStart": false
+    }
+  }
+}
